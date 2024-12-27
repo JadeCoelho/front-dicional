@@ -1,1 +1,33 @@
-<p>filter works!</p>
+<div class="rounded-md bg-slate-600 py-5">
+  <h2 class="text-center text-slate-300 font-semibold text-lg">
+    <i class='bx bx-filter-alt' ></i>
+    Filtros
+  </h2>
+  <div class="filters flex flex-wrap text-slate-300 text-sm">
+    <div class="input-box">
+      <label for="word">Palavra:</label>
+      <input type="text" name="word" id="word" placeholder="Buscar palavra...">
+    </div>
+    <div class="input-box">
+      <label for="user">Criador(a):</label>
+      <select name="user" id="user">
+        <option value="all">Tudo</option>
+      </select>
+    </div>
+    <div class="input-box">
+      <label for="language">Idioma:</label>
+      <select name="language" id="language">
+        <option value="all">Tudo</option>
+      </select>
+    </div>
+    <div class="input-box">
+      <label for="order">Ordem:</label>
+      <select name="order" id="order">
+        <option value="az">A-Z</option>
+        <option value="za">Z-A</option>
+        <option value="latest">Mais recentes</option>
+        <option value="oldest">Mais antigos</option>
+      </select>
+    </div>
+  </div>
+</div>

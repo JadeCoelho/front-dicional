@@ -1,0 +1,16 @@
+li{
+  padding: 6px 9px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+li.ativo{
+  background-color: var(--cor);
+}
+
+li.ativo i{
+  color: #1e293b;
+}
+
+.logo i, li i, .sair{
+  color: var(--cor);
+}

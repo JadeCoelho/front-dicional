@@ -1,0 +1,25 @@
+h2 i {
+  color: var(--cor);
+  margin-right: 4px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px;
+}
+
+input,
+select {
+  background-color: #334155;
+  padding: 8px 12px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  min-width: 100px;
+}
+
+input[type="text"] {
+  min-width: 320px;
+}

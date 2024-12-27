@@ -1,0 +1,32 @@
+button{
+  background-color: var(--cor);
+}
+
+td, th{
+  border: 1px solid #02020262;
+}
+
+th{
+  font-weight: 100;
+  padding: 6px 4px;
+}
+
+td{
+  padding: 10px 8px;
+  font-size: 17px;
+}
+
+td:hover{
+  color: var(--cor);
+}
+
+td:first-child{
+  width: 25%;
+}
+td:last-child{
+  width: 5%;
+}
+
+td i{
+  cursor: pointer;
+}
